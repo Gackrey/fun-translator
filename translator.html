@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fun Translator</title>
+</head>
+<body>
+    <h1>Welcome to Funny Translator</h1>
+    <label for="choose">Choose language:</label>
+    <select name="choose" id="language">
+        <option value="minion">Minion</option>
+        <option value="yoda">Yoda</option>
+        <option value="pig-latin">Pig Latin</option>
+        <option value="leetspeak">Leetspeak</option>
+        <option value="pirate">Pirate</option>
+        <option value="dothraki">Dothraki</option>
+        <option value="valyrian">Valyrian</option>
+        <option value="numbers">Number 2 Text</option>
+        <option value="morse">Morse</option>
+        <option value="article_rewrite">Article Format</option>
+    </select>
+    <br>
+    <br>
+    <label for="inputtext">Enter Text:</label><br>
+    <textarea id="inputtext" name="inputtext" id="" cols="30" rows="5" placeholder="Hello there!"></textarea><br>
+    <input id="submit" type="button" value="Submit"><br><br>
+    <label for="display">Your Translated text appears here:</label><br>
+    <div id="display" name="display"></div>
+</body>
+<script src="minion.js"></script>
+</html>

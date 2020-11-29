@@ -1,0 +1,38 @@
+*{
+    margin-left: 20px;
+}
+h1{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: xxx-large;
+    text-align: center;
+    background: #ffff00ed;
+    border: 1px solid;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+select,option{
+    font-size: 16px;
+}
+#input{
+    outline: none;
+}
+#submit{
+    color: white;
+    padding: 5px;
+    background-color: #1285ec;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+#display{
+    width: 90vw;
+    height: 20vh;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgb(31, 29, 29);
+    padding: 10px;
+}
