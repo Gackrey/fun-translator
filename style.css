@@ -42,7 +42,7 @@ select,option{
 }
 #display{
     margin-left: 20px;
-    width: 80vw;
+    width: 96vw;
     height: 20vh;
     color: white;
     margin-top: 16px;
@@ -51,4 +51,9 @@ select,option{
     border-radius: 10px;
     background-color: rgb(31, 29, 29);
     padding: 10px;
+}
+@media only screen and (max-width:768px){
+    #display{
+        width: 82vw;
+    }
 }
