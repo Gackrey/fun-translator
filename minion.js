@@ -6,7 +6,6 @@ submit.addEventListener('click',()=>{
     var text = document.getElementById('input').value;
     var addon = minion+language.value+'.json';
     var get = addon+'?text='+text;
-    console.log(get);
     getrequestvalue(get);
 });
 
