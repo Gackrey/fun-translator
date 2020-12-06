@@ -3,7 +3,7 @@ var submit = document.getElementById('submit');
 var display = document.getElementById('display');
 var language = document.getElementById('language');
 submit.addEventListener('click',()=>{
-    var text = document.getElementById('inputtext').value;
+    var text = document.getElementById('input').value;
     var addon = minion+language.value+'.json';
     var get = addon+'?text='+text;
     console.log(get);
