@@ -10,6 +10,9 @@ submit.addEventListener('click',()=>{
     getrequestvalue(get);
 });
 
+language.addEventListener('click',()=>{
+    submit.innerText = `Translate to ${language.value.toUpperCase()} Language`
+})
 function getrequestvalue(url) {
     display.innerText = 'Please wait.....';
     fetch(url)
