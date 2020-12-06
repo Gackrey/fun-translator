@@ -53,7 +53,7 @@ select,option{
     padding: 10px;
 }
 @media only screen and (max-width:768px){
-    #display{
-        width: 82vw;
+    label{
+        margin-left: 10px;
     }
 }
